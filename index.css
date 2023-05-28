@@ -42,6 +42,7 @@ body {
 .upper input {
     height: 2.5rem;
     width: 20rem;
+    /* margin: auto; */
 }
 
 input {
@@ -104,4 +105,16 @@ select {
 
 option {
     background: none;
+}
+@media screen and (max-width:500px) {
+    .main{
+        width: 40vh;
+    }
+    .upper input{
+    width: 12rem;
+    }
+    .heading
+    {
+        font-size: 1.5rem;
+    }
 }

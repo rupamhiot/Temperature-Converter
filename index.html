@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+    <h1 class="heading">Temperature Converter</h1>
+    <form action="" class="tempcalculator" onclick="calculate()">
+        <div class="upper">
+            <div class="box1">
+            <!-- <label for="temp">Please enter the Temperature</label> -->
+            <input type="text" placeholder="Enter Temperature" id="temp">
+        </div>
+        <div class="box2">
+            <select name="temp_cf" id="temp_cf">
+                <option value="cel">°Celsius</option>
+                <option value="far">°Fahrhenite</option>
+            </select>
+        </div>
+
+        </div>
+        <div class="lower">
+            <!-- <span class="ip" id="output">  </span> -->
+            <input class="inp" type="text" name="output" id="output" placeholder="Result">
+            <button type="button" class="btn">Calculate</button>
+        </div>
+        
+    </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
